@@ -1,0 +1,11 @@
+To hack Chrome Dino game and get unlimited score follow the given steps:
+
+1. In the chrome dino game ( chrome://dino/ ) right click and select Inspect.
+2. Select Console tab from the window that appears. 
+3. Write the following code there - 
+
+   Runner.instance_.gameOver = () => {} https://www.youtube.com/watch?v=aa9YX17mHVQ
+                  OR
+   Runner.prototype.gameOver = function (){}
+4. Press Enter
+5. Now close the inspect windows or minimize it and enjoy the Dino Game with unlimited score. To exit, close the tab or chrome.
